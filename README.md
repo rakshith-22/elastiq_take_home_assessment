@@ -1,6 +1,6 @@
 # Selenium Table Search Test Suite
 
-This Python script (qa_selenium_test.py) navigates to the Selenium Easy Table Search Demo page (https://www.lambdatest.com/selenium-playground/table-sort-search-demo), interacts with the search box to filter rows containing "New York," and validates the search results against specified criteria.
+This Python script (qa_selenium_test.py) launches a Chrome browser using Selenium WebDriver and navigates to the Selenium Easy Table Search Demo page (https://www.lambdatest.com/selenium-playground/table-sort-search-demo), interacts with the search box to filter rows containing "New York," and validates the search results against specified criteria.
 
 
 ## Approach
@@ -19,7 +19,9 @@ This Python script (qa_selenium_test.py) navigates to the Selenium Easy Table Se
 ## How to Run
 
 ### 1. Install Dependencies:
-- Ensure Python 3.7+ is installed.
+- Ensure Python 3.8+ is installed.
+- Google Chrome installed.
+- ChromeDriver installed (Ensure it matches your Chrome version)
 - Install required Python packages:
 
     ```
@@ -32,4 +34,10 @@ This Python script (qa_selenium_test.py) navigates to the Selenium Easy Table Se
 
     ```
     pytest -v qa_selenium_test.py
+
     ```
+### The script will:
+- Opens a browser window.
+- Performs the search operation.
+- Validate the expected number of filtered rows.
+- Close the browser.
