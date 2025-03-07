@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Chrome()
-driver.get("https://www.lambdatest.com/selenium-playgroundb /table-sort-search-demo")
+driver.get("https://www.lambdatest.com/selenium-playground/table-sort-search-demo")
 driver.maximize_window()
 
 # Get total entries count from the info text
