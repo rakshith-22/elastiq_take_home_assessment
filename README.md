@@ -11,6 +11,7 @@ This Python script (qa_selenium_test.py) launches a Chrome browser using Seleniu
 
 ### 2. Search Automation:
 - Located the search input field by its ID and entered the query "New York."
+
 ### 3. Validation:
 - Checked for the correct number of visible rows in the table matching the query.
 - Verified the total number of table entries displayed in the UI.
@@ -36,7 +37,7 @@ This Python script (qa_selenium_test.py) launches a Chrome browser using Seleniu
     pytest -v qa_selenium_test.py
 
     ```
-### The script will:
+### 3. The script will:
 - Opens a browser window.
 - Performs the search operation.
 - Validate the expected number of filtered rows.
